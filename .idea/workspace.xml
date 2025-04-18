@@ -3,8 +3,194 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="ALL" />
   </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/backend/Cargo.toml">
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-trait-0.1.88">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.4.0">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/axum-0.7.9">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/axum-core-0.4.5">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$PROJECT_DIR$/backend">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bytes-1.10.1">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cfg-if-1.0.0">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fnv-1.0.7">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/form_urlencoded-1.2.1">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-channel-0.3.31">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-core-0.3.31">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-task-0.3.31">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-util-0.3.31">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/http-1.3.1">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/http-body-1.0.1">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/http-body-util-0.1.3">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/httparse-1.10.1">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/httpdate-1.0.3">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-1.6.0">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-util-0.1.11">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/itoa-1.0.15">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lock_api-0.4.12">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.27">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/matchit-0.7.3">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memchr-2.7.4">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mime-0.3.17">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mio-1.0.3">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/once_cell-1.21.3">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/parking_lot-0.12.3">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/parking_lot_core-0.9.10">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/percent-encoding-2.3.1">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pin-project-lite-0.2.16">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pin-utils-0.1.0">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-1.0.95">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/quote-1.0.40">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rustversion-1.0.20">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ryu-1.0.20">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/scopeguard-1.2.0">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.219">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_derive-1.0.219">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_json-1.0.140">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.17">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_urlencoded-0.7.1">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/smallvec-1.15.0">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.5.9">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/syn-2.0.100">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sync_wrapper-1.0.2">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.44.2">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-macros-2.5.0">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tower-0.4.13">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tower-0.5.2">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tower-layer-0.3.3">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tower-service-0.3.3">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-0.1.41">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-core-0.1.33">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-ident-1.0.18">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/windows-sys-0.52.0">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/windows-targets-0.52.6">
+        <enabledFeature name="default" />
+      </package>
+      <package file="$USER_HOME$/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/windows_x86_64_msvc-0.52.6">
+        <enabledFeature name="default" />
+      </package>
+    </cargoProject>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e47c412-567a-4391-be2c-3565ee1be68c" name="Changes" comment="" />
+    <list default="true" id="3e47c412-567a-4391-be2c-3565ee1be68c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,32 +202,49 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="YPuylvQf" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2voZiaQfqVr15WyBldwtkMdbkIt" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.rust.reset.selective.auto.import": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
-    "org.rust.first.attach.projects": "true",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Notes and Projects/Portfolio&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;org.rust.hideNoCargoProjectNotificationsD:/Notes and Projects/Portfolio/backend/Cargo.toml&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.3.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Notes and Projects\Portfolio\client\public" />
+      <recent name="D:\Notes and Projects\Portfolio\client\src\assets" />
+    </key>
+  </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -51,12 +254,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744813515007</updated>
-      <workItem from="1744813516403" duration="1310000" />
+      <workItem from="1744813516403" duration="2449000" />
+      <workItem from="1744963056345" duration="179000" />
+      <workItem from="1744963250226" duration="1694000" />
+      <workItem from="1744965421355" duration="145000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
