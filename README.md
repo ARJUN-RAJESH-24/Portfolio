@@ -33,9 +33,9 @@ My portfolio showcases a few projects that demonstrate my technical ability and 
 
 You can connect with me through the following platforms:
 
-- 📧 **Email:** [your-email@example.com]
+- 📧 **Email:** [arjunrajesh59@gmail.com]
 - 🌐 [LinkedIn](https://www.linkedin.com/in/arjun-rajesh-30860728b/)
-- 💻 GitHub: [github.com/your-username](https://github.com/your-username)
+- 💻 GitHub: [github.com/your-username](https://github.com/ARJUN-RAJESH-24)
 
 ---
 
