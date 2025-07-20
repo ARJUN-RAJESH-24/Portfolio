@@ -4,11 +4,11 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  darkMode: 'class', // This line is crucial for dark mode toggle
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter', 'sans-serif'], // Ensure Inter is loaded
+        sans: ['Inter', 'sans-serif'],
       },
     },
   },

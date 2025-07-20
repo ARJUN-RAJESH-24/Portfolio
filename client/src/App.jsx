@@ -1,25 +1,17 @@
 import React, { useState, useEffect } from 'react';
 
 function App() {
-    // Initial state for dark mode. True means dark mode is active by default.
     const [darkMode, setDarkMode] = useState(true);
 
     useEffect(() => {
-        // Toggles the 'dark' class on the root <html> element based on darkMode state.
-        // This is how Tailwind CSS enables dark mode.
         document.documentElement.classList.toggle('dark', darkMode);
     }, [darkMode]);
 
-    // State to hold the message fetched from the Rust backend.
     const [backendMessage, setBackendMessage] = useState('');
 
     useEffect(() => {
-        // Function to fetch data from the backend.
         const fetchBackendMessage = async () => {
             try {
-                // The URL of your Rust backend.
-                // IMPORTANT: For deployment, replace 'http://127.0.0.1:3000/'
-                // with your actual deployed backend URL (e.g., 'https://api.yourdomain.com').
                 const response = await fetch('http://127.0.0.1:3000/');
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
@@ -28,20 +20,53 @@ function App() {
                 setBackendMessage(message);
             } catch (error) {
                 console.error("Failed to fetch backend message:", error);
-                setBackendMessage("Failed to connect to backend."); // User-friendly error message.
+                setBackendMessage("Failed to connect to backend.");
             }
         };
 
-        fetchBackendMessage(); // Execute the fetch function when the component mounts.
-    }, []); // Empty dependency array ensures this runs only once.
+        fetchBackendMessage();
+    }, []);
+
+    const projects = [
+        {
+            title: "CBSE Exam Result Publisher & Student Viewing Site",
+            desc: "A web-based application to streamline CBSE exam result publishing and student viewing, offering distinct functionalities for examiners and students.",
+            tech: ["Node.js", "Express.js", "Handlebars.js", "MongoDB/SQL (Implied)", "Python"],
+            github: "https://github.com/ARJUN-RAJESH-24/CBSE-Exam-Result-Publisher-and-Student-Viewing-Site",
+            demo: "#", // Replace with actual demo link if available
+            image: "/project-images/cbse-thumbnail.jpg" // Corrected path/extension based on your file explorer screenshot
+        },
+        {
+            title: "Advanced Geometric Shape Generator",
+            desc: "An enhanced console-based Java application with a graphical user interface (GUI) for generating and visualizing 2D and 3D geometric shapes.",
+            tech: ["Java", "Java Swing"],
+            github: "https://github.com/ARJUN-RAJESH-24/Advanced-Geometric-Shape-Generator",
+            demo: "#", // Replace with actual demo link if available
+            image: "/project-images/geometric-generator-thumbnail.png" // Corrected path/extension
+        },
+        {
+            title: "DemonModeProtocol (Mobile App)",
+            desc: "An official mobile app for the Demon Mode Protocol lifestyle system, built with Flutter to log, track, and dominate physical, mental, and spiritual transformation.",
+            tech: ["Flutter", "Dart", "Firebase", "SQLite"],
+            github: "https://github.com/ARJUN-RAJESH-24/DemonModeProtocol_Git",
+            demo: "#", // Replace with actual demo link if available
+            image: "/project-images/demonmode-thumbnail.png" // Corrected path/extension
+        },
+        {
+            title: "Trading.ai",
+            desc: "A Python-based project related to AI/machine learning in trading. (Detailed description pending/to be provided by Arjun).",
+            tech: ["Python", "AI/ML (Implied)"],
+            github: "https://github.com/ARJUN-RAJESH-24/Trading.ai",
+            demo: "#", // Replace with actual demo link if available
+            image: "/project-images/trading-ai-thumbnail.png" // Corrected path/extension
+        }
+    ];
 
     return (
-        // Main container: min-height for full screen, responsive padding, font, and smooth transitions for dark/light mode.
-        // Using neutral colors for a cleaner, modern aesthetic.
         <div className="min-h-screen bg-neutral-50 dark:bg-neutral-900 text-neutral-900 dark:text-neutral-50 font-sans transition-colors duration-500">
             {/* Navbar: Sticky, blurred background, subtle shadow, good padding. */}
             <nav className="sticky top-0 z-10 flex items-center justify-between px-6 md:px-12 py-4 bg-neutral-50/80 dark:bg-neutral-900/80 backdrop-blur-md shadow-sm">
-                <h1 className="text-xl md:text-2xl font-light tracking-wider">ARJUN<span className="text-cyan-500 font-medium">RAJESH</span></h1>
+                <h1 className="text-xl md:text-2xl font-light tracking-wider">ARJUN <span className="text-cyan-500 font-medium">RAJESH</span></h1>
                 <div className="flex items-center space-x-4">
                     {/* Navigation links for smooth scrolling - hidden on small screens */}
                     <ul className="hidden md:flex space-x-6 text-sm uppercase font-light">
@@ -63,12 +88,11 @@ function App() {
             </nav>
 
             {/* Hero Section: Centered content, generous vertical padding. */}
-            {/* min-h-[calc(100vh-80px)] ensures it takes up most of the viewport height below the nav. */}
             <section className="flex flex-col items-center justify-center min-h-[calc(100vh-80px)] text-center max-w-3xl mx-auto py-16 px-4">
                 {/* Profile Image with subtle shadow and transition effects */}
                 <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden mb-8 shadow-xl dark:shadow-cyan-500/20 group">
                     <img
-                        src="/red kurtha.jpg" // Ensure this image is in your client/public directory.
+                        src="/red kurtha.jpg" // This is your personal profile image from client/public.
                         alt="Arjun Rajesh Profile"
                         className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out"
                     />
@@ -121,18 +145,16 @@ function App() {
                     <h3 className="text-3xl font-light tracking-wide mb-12 text-center text-cyan-500">SELECTED WORK</h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {/* Project Card Template - Highly Aesthetic */}
-                        {[
-                            { title: "Secure Chat App", tech: ["Rust", "React", "WebSockets"], demo: "#", github: "#", desc: "A real-time chat application built with secure Rust backend and responsive React frontend, utilizing WebSockets for instant communication." },
-                            { title: "Portfolio V2", tech: ["Next.js", "Tailwind CSS"], demo: "#", github: "#", desc: "An updated version of my personal portfolio, redesigned with Next.js for SSR and enhanced aesthetics using Tailwind CSS." },
-                            { title: "Data Analytics Tool", tech: ["Python", "Flask", "D3.js"], demo: "#", github: "#", desc: "A data visualization and analytics tool for processing large datasets, featuring a Flask backend and interactive D3.js frontend." },
-                            // Add more projects here following this structure:
-                            // { title: "Your Project Title", tech: ["Tech1", "Tech2"], demo: "#", github: "#", desc: "Short description of your project." },
-                        ].map((project, index) => (
+                        {projects.map((project, index) => (
                             <div key={index} className="bg-white dark:bg-neutral-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl dark:shadow-neutral-700 dark:hover:shadow-neutral-600 transform hover:-translate-y-2 transition-all duration-500 group">
-                                {/* Placeholder for Project Image/Icon */}
-                                <div className="h-48 bg-neutral-200 dark:bg-neutral-700 flex items-center justify-center text-neutral-500 text-xl font-bold">
-                                    {/* Ideally replace with an actual project image */}
-                                    Project {index + 1} Image
+                                {/* Project Image */}
+                                <div className="h-48 bg-neutral-200 dark:bg-neutral-700 flex items-center justify-center overflow-hidden">
+                                    {project.image ? (
+                                        <img src={project.image} alt={`${project.title} Thumbnail`} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                                    ) : (
+                                        // Fallback text if no image or image path is broken
+                                        <span className="text-neutral-500 dark:text-neutral-400 text-xl font-bold">Project Image Placeholder</span>
+                                    )}
                                 </div>
                                 <div className="p-6">
                                     <h4 className="text-xl font-semibold mb-2 text-neutral-800 dark:text-neutral-100">{project.title}</h4>
