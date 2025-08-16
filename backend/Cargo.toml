@@ -4,12 +4,22 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-tokio = { version = "1.37", features = ["full"] }
-axum = "0.7"
-hyper = { version = "1.2", features = ["full"] }
-tower = "0.4"
+# Updated to a more recent, stable version with full features for async runtime
+tokio = { version = "1.38", features = ["full"] }
+
+# Axum requires hyper and tokio for its HTTP server.
+axum = "0.7.5"
+# Pin hyper to the same major version as Axum for compatibility.
+# Features needed for full functionality (client, server, etc.).
+hyper = { version = "1.4", features = ["full"] }
+
+# Required for handling JSON data with Axum, used by serde.
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
+# Reqwest is the HTTP client used to fetch data from the GitHub API.
+# The "json" feature is crucial for deserializing the API response.
+reqwest = { version = "0.12", features = ["json"] }
+
+# Used for the CORS (Cross-Origin Resource Sharing) middleware.
+tower = "0.4"
 tower-http = { version = "0.5", features = ["cors"] }
-# tracing = "0.1" # Optional logging
-# tracing-subscriber = "0.3" # Optional logging
