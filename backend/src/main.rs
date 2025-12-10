@@ -43,7 +43,9 @@ async fn main() {
         .layer(cors); // Apply the CORS layer
 
     // Set the address for the server to listen on
-    let addr = SocketAddr::from(([127, 0, 0, 1], 3000));
+    let port = std::env::var("PORT").unwrap_or_else(|_| "3000".to_string());
+    let addr_str = format!("0.0.0.0:{}", port);
+    let addr: SocketAddr = addr_str.parse().expect("Invalid address");
     let listener = TcpListener::bind(&addr).await.unwrap_or_else(|e| {
         eprintln!("Failed to bind to {}: {}", addr, e);
         std::process::exit(1);

@@ -1,12 +1,25 @@
-# React + Vite
+# Portfolio Client
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This directory contains the **React + Vite** frontend application for the portfolio.
 
-Currently, two official plugins are available:
+For full project documentation, including design philosophy, tech stack, and deployment instructions, please refer to the **[Root README](../README.md)**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Quick Start (Client Only)
 
-## Expanding the ESLint configuration
+1. **Install dependencies:**
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    ```bash
+    npm install
+    ```
+
+2. **Run locally:**
+
+    ```bash
+    npm run dev
+    ```
+
+3. **Build for production:**
+
+    ```bash
+    npm run build
+    ```
